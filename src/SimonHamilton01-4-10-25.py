@@ -195,7 +195,7 @@ class SettingsPage(BasePage): # This creates a class called "SettingsPage" which
             recursive_set_bg(top, color) # This calls the "recursive_set_bg" function to set the background color of the top-level widget and its children.
 def create_window(): # A function is defined here by the name of "create_window". This function is used to create the main application window.
     window = tk.Tk() # This creates a new instance of the Tk class, which represents the main application window.
-    window.title("Simon Hamilton") # This sets the title of the main window to "Simon Hamilton".
+    window.title("EHR") # This sets the title of the main window to "EHR".
     window.geometry("900x800") # This sets the size of the main window to 900 pixels wide and 800 pixels tall.
     window.resizable(False, False) # This makes the main window non-resizable in both horizontal and vertical directions.
     menu_width = 200 # This creates a variable called "menu_width" and assigns it the value 200. This is the width of the side menu.
